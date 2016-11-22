@@ -24,16 +24,13 @@
     "angular2-template-loader": "^0.4.0",
     "awesome-typescript-loader": "^2.2.4",
     "to-string-loader": "latest",
-    "typescript": "latest",
-    "typings": "latest",
+    "typescript": "latest",    
     "webpack": "2.1.0-beta.22",
-    "webpack-dev-server": "latest",
-    "eslint": "latest",
+    "webpack-dev-server": "latest",    
     "css-loader": "latest",
     "style-loader": "latest",
-    "html-loader": "latest",
-    "svg-url-loader": "latest",
-    "url-loader": "latest",
-    "raw-loader": "latest"
+    "html-loader": "latest",    
+    "url-loader": "latest"
+    
   }
 }

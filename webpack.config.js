@@ -6,6 +6,9 @@ module.exports = {
     output: {
         filename: './app/[name].min.js'
     },
+    resolve: {      
+      extensions: ['', '.js', '.ts']
+    },
     module: {
         loaders: [{
             test: /\.css$/,
