@@ -1,5 +1,5 @@
-# Simplest-Angular2-Webpack
-The simplest angular2 project on Webpack build system
+# Simplest Angular2/Webpack seed
+The simplest angular2 project seed on Webpack build system
 
 ### Installation
 - `npm install`
