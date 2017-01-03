@@ -16,7 +16,7 @@ module.exports = {
 
         }, {
             test: /\.html$/,
-            loader: 'html'
+            loader: 'html?-minimize'
 
         }, {
             test: /\.(jpg|png|gif)$/,
