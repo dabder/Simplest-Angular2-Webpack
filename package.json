@@ -2,33 +2,36 @@
   "name": "Simplest-Angular2-Webpack",
   "version": "1.0.0",
   "scripts": {
+    "compile": "ngc -p tsconfig-aot.json",
     "build": "webpack -p",
     "start": "webpack-dev-server --devtool source-map"
   },
   "dependencies": {
     "@angular/common": "~2.4.0",
-    "@angular/compiler": "~2.4.0",
     "@angular/core": "~2.4.0",
     "@angular/forms": "~2.4.0",
     "@angular/http": "~2.4.0",
     "@angular/platform-browser": "~2.4.0",
     "@angular/platform-browser-dynamic": "~2.4.0",
+    "@angular/platform-server": "^2.4.1",
     "@angular/router": "~3.2.0",
     "core-js": "^2.4.1",
     "rxjs": "~5.0.1",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "@angular/compiler": "~2.4.0",
+    "@angular/compiler-cli": "^2.4.1",
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.45",
     "angular2-template-loader": "latest",
-    "awesome-typescript-loader": "~2.2.4",  
+    "awesome-typescript-loader": "~2.2.4",
     "typescript": "~2.0.10",
     "webpack": "2.1.0-beta.22",
-    "webpack-dev-server": "latest",    
+    "webpack-dev-server": "latest",
     "css-loader": "latest",
     "style-loader": "latest",
-    "html-loader": "latest",    
+    "html-loader": "latest",
     "url-loader": "latest",
     "to-string-loader": "latest"
   }

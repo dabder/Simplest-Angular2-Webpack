@@ -1,7 +1,8 @@
+const prod = process.argv.indexOf('-p') !== -1;
 
 module.exports = {
     entry: {
-        index: './app/index.ts'
+        index: './app/' + ( (prod)?'index-aot.ts':'index.ts' )
     },
     output: {
         filename: './app/[name].min.js'
